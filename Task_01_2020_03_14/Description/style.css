@@ -1,0 +1,131 @@
+/* INDEX PAGE */ 
+
+.inline {
+  display: inline;
+}
+
+.red-bg {
+  background-color: red;
+}
+
+.green-bg {
+  background-color: green;
+}
+
+.blue-bg {
+  background-color: blue;
+}
+
+.custom-font {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5em;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 1.2em;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  margin-top: 20px;
+}
+
+.center-container {
+  width: 100%;
+  height: 50px;
+  border: 1px solid black;
+  margin-top: 20px;
+  border-radius: 20px;
+  text-align: center;
+  padding-top: 25px;
+}
+
+.middle {
+  border: 2px dotted blue;
+  margin-top: 20px;
+  text-align: center;
+  padding: 1%;
+}
+
+.middle > img {
+  vertical-align: middle;
+}
+
+.relative {
+  position: relative;
+  width: 50%;
+  height: 20vh;
+  border: 1px dashed #ff22ee;
+  margin-top: 20px;
+  margin-left: 25%;
+  border-radius: 20px;
+}
+
+.absolute {
+  position: absolute;
+  top: 25%;
+  left: calc(50% - 50px);
+  width: 100px;
+  height: 80px;
+  background-color: coral;
+  border-left: 3px solid black;
+  text-align: center;
+  box-shadow: black 5px 5px 20px 1px;
+}
+
+.custom-ul {
+  font-style: italic;
+  font-size: 20px;
+  color: rgb(20, 144, 230);
+  list-style-type: lower-latin;
+}
+
+.image-bg {
+  background-image: url('https://i.ytimg.com/vi/lkQ0LDx9jHs/maxresdefault.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+  height: 30vh;
+  color: white;
+  font-size: 30px;
+}
+
+/* FORM PAGE */
+#form {
+  border: 1px solid white;
+  border-radius: 20px;
+  width: 25%;
+  padding: 1%;
+  box-shadow: grey 10px 10px 30px 3px;
+  background: linear-gradient(#e66465, #9198e5);
+}
+
+.form-block {
+  margin: 10px 0;
+}
+
+.form-block > label {
+  font: normal small-caps 600 16px Arial, Helvetica, sans-serif;
+  margin-right: 10px;
+}
+
+.form-block > input, .form-block > textarea {
+  float: right;
+  width: 200px;
+}
+
+.form-block > textarea {
+  height: 50px;
+}
+
+.submit-button {
+  background: #2F6690;
+  border: 1px solid #2F6690;
+  border-radius: 10px;
+  color: white;
+  padding: 2%;
+  margin-top: 15px;
+}
+
+.submit-button:hover {
+  cursor: pointer;
+  background: blue;
+}
