@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" type="text/css" href="./style.css">
+    <title>Second task</title>
+</head>
+<body>
+    <form id="form" action="some_method" method="POST">
+        <div class="form-block">
+            <label for="firstName">First Name</label>
+            <input id="firstName" type="text" placeholder="First name">
+        </div>
+        <div class="form-block">
+            <label for="lastName">Last Name</label>
+            <input id="lastName" type="text" placeholder="Last name">
+        </div>
+        <div class="form-block">
+            <label for="birthDay">Birthday</label>
+            <input id="birthDay" type="date" placeholder="dd.mm.yyyy">
+        </div>
+        <div class="form-block">
+            <label for="countOfKitties">Count of kitties (from 0 to 100)</label>
+            <input id="countOfKitties" type="number" placeholder="0">
+        </div>
+        <div class="form-block">
+            <label for="comment">Comment (max length = 100)</label>
+            <textarea id="comment" type="text" maxlength="100" placeholder="Comment"></textarea>
+        </div>
+        <div class="form-block">
+            <button class="submit-button" type="submit">Submit</button>
+        </div>
+    </form>
+</body>
+</html>
