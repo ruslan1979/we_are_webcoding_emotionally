@@ -129,22 +129,49 @@
         background: blue;
     }
 
-    .add-wrapper {
-        margin: 0 auto;
-        font: 1.2em Helvetica, arial, sans-serif;
+    /* ================================================= */
+    /*                                                   */
+    /*  Task 03                                          */
+    /*                                                   */
+    /* ================================================= */
+
+    body {
+        background-color: #e2edc1;
+        font: normal 100 16px Arial, Helvetica, sans-serif;
     }
 
-    .add-header {
-        
-        background: #FAFAD2;
-        max-width: 980px;
-        width: 100%;
-        margin: auto;
-        
+    header {
+        margin-top: 10px;
+        margin-left: 230px;
+    }
+ 
+    .aside, .content {
+        padding: 10px;
+        border: 1px solid black;
+    }
+ 
+    .aside {
+        float: left;
+        width: 200px;
+        background: aqua; 
+        height:80vh;    
     }
 
-    .add-nav {
-        grid-column: col-start / span 2;
-        grid-row: 2 / 4;
+    .ul {
+        list-style-type: none;
     }
 
+    .ul li:hover {
+        background-color: #ffeae0;
+    }
+
+   .content {
+        margin-left: 220px;
+        background: orange;
+        height: 80vh;
+    }
+
+    footer {
+        background: #e2edc1;
+        margin-top: 20px; 
+    }
