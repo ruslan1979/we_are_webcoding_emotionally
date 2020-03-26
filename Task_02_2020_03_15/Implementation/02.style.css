@@ -1,0 +1,152 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        font: normal 100 16px Arial, Helvetica, sans-serif;
+    }
+
+    /* Task 2.1 */
+    a:link{
+        color: red;
+        text-decoration: none;
+    }
+
+    /* Task 2.2 */
+    ul {
+        border: 1px solid black;
+        width: 20%;
+        background-color: tomato;        
+    }
+
+    ul li {
+        padding: 0.5rem;
+    }
+
+    ul li:nth-child(odd) {
+        background-color: white;
+    }
+
+    /* Task 2.3 */    
+    div:empty {
+        border: 1px solid black;
+        background-color: crimson;
+        padding: 3px;
+        margin-left: 7px;
+        display: inline-block;
+    }
+
+    /* Task 2.4 */
+    div > * {
+        background-color: darkcyan;
+    }    
+    
+    /* Task 2.5 */
+    div > span:hover {
+        background-color: white;
+    }    
+
+    /* Task 2.6 */
+    a:link:hover{
+        box-shadow: 5px 3px 4px 2px black;
+    }
+
+    /* Task 2.7 */      
+    ol {        
+        padding: 40px;
+        list-style-type: none;
+        list-style-image: url('starsolid.gif');         
+    }
+
+    /* Task 2.8 */
+    p {
+        color: blanchedalmond;
+    }
+
+    /* Task 2.9 */
+    div > p {
+        color: chocolate;
+        background-color: darkgray;
+    }
+
+    /* Task 2.10 */
+    div > h2 {
+        color: yellow;
+        background-color: blueviolet;
+    }
+
+    /* Task 2.11 */
+    p, h2 {
+        color: green;
+        background-color: grey;
+    }
+
+    /* Task 2.12 */
+    div > h2, p {
+        color: pink;
+        background-color: white;
+    }
+
+    /* Task 2.13 */
+    div > h2, div > p {
+        color: orange;
+        background-color: lightcyan;
+    }
+
+    /* Task 2.14 */
+    #test {
+        color: black;
+        background-color: cornsilk;
+    }
+
+    /* Task 2.15 */
+    #test > p {
+        color: blue;
+        background-color: yellow;
+    }
+
+    /* Task 2.16 */
+    #test > p, h2 {
+        color: orange;
+        background-color: black;
+    }
+
+    /* Task 2.17 */
+    .test {
+        color: gainsboro;
+        background-color: black;
+    }
+
+    /* Task 2.18 */
+    p.test  {
+        color: white;
+        background-color: black;
+    }
+
+    /* Task 2.19 */
+    .test, .hello  {
+        color: white;
+        background-color: #445522;
+    }
+    
+    /* Task 2.20 */
+    p.test, h2.hello  {
+        color: rebeccapurple;
+        background-color: #445566;
+        border-radius: 10px;
+        border: solid 2px tomato;
+    }
+
+
+
+
+
+        
+
+
+    
+    
+
+
+    
