@@ -8,7 +8,7 @@
     }
 
     /* Task 2.1 */
-    a:link{
+    a[href*="http"]{
         color: red;
         text-decoration: none;
     }
@@ -52,12 +52,10 @@
         box-shadow: 5px 3px 4px 2px black;
     }
 
-    /* Task 2.7 */      
-    ol {        
-        padding: 40px;
-        list-style-type: none;
-        list-style-image: url('starsolid.gif');         
-    }
+    /* Task 2.7 */
+    ol li:before {
+        content: url('starsolid.gif');
+      }
 
     /* Task 2.8 */
     p {
@@ -138,10 +136,75 @@
         border: solid 2px tomato;
     }
 
+    /* Task 2.21 */
+    p.test, .hello  {
+        color: azure;
+        background-color: #445566;
+        border-radius: 15px;
+        border: solid 6px tomato;
+    }
 
+    /* Task 2.22, 2.24 */
+    div[id="hello"] > p.test  {
+        color: azure;
+        background-color: black;
+        border-radius: 15px;
+        border: solid 3px green;
+    }
 
+    /* Task 2.23  */
+    .hello > p.test  {
+        color: azure;
+        background-color: blue;
+        border-radius: 15px;
+        border: solid 3px green;
+    }
 
+    /* Task 2.25  */
+    .test > h2  {
+        color: azure;
+        background-color: blue;
+        border-radius: 20px;
+        border: dotted 3px green;
+    }
 
+    /* Task 2.26  */
+    .test.hello  {
+        color: black;
+        background-color: yellow;
+        border-radius: 10px;
+        border: dotted 6px green;
+    }
+
+    /* Task 2.27  */
+    p.test.hello {
+        color: green;
+        background-color: yellow;
+        border-radius: 10px;
+        border: dotted 2px green;
+    }
+
+    /* Task 2.28  */
+    h2.test.hello.eee {
+        color: blueviolet;
+        background-color: yellow;
+    }
+
+    /* Task 2.29  */
+    p i {
+        color: black;
+        background-color: burlywood;
+        border-radius: 10px;
+        border: dotted 2px green;
+    }
+
+    /* Task 2.30 */
+    ul li {
+        margin: 0 10px;
+        padding: 0;
+        display: block;
+        position: relative;
+    }
         
 
 
