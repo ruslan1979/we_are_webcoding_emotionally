@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    height: 3em;
+}
+
+  #container {    
+    display:table;
+    width: 100%;
+    font: normal 100 36px Arial, Helvetica, sans-serif;
+  }
+
+  div[class*="sidebar"] {
+    display: table-cell;
+    text-align: center;
+    vertical-align:middle;
+    line-height: 3em;
+  }
+
+  .left-sidebar {
+    background: red;
+    color: goldenrod;
+  }
+  
+  .right-sidebar {
+    background: orange;
+    color: brown;
+  }
+  
+  .content-sidebar {
+    background: yellow;
+    color: goldenrod;
+  }
+  

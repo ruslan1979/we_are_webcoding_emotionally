@@ -274,8 +274,6 @@
         background-color: olive;
     }
 
-    /* No demo is provided. It is just coded */
-
     /* Task 2.39 */
     p[title] {
         color: yellow;
@@ -287,3 +285,29 @@
         color: black;
         background-color: olive;
     }
+
+    /* Task 2.41 */
+    a[href*="http:\/\/"] {
+        color: black;
+        background-color: yellow;
+    }
+
+    /* 2.42 has not been tested yet */
+
+    /* Task 2.42 */
+    a[href^=".html"] {
+        color: black;
+        background-color: yellow;
+    }
+
+    /* Task 2.43 */
+    p[title*="привет"] {
+        color: black;
+        background-color: yellow;
+    }
+
+    /* Task 2.44 */
+    p[class^="top\-"] {
+        color: black;
+        background-color: yellow;
+    }    

@@ -1,0 +1,13 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+
+    /* ------------------------------------------------
+          THE SCRIPT IS BEING USED FOR TESTING AIMS ONLY
+      -------------------------------------------------- */      
+    p[class^="top\-"] {
+        color: black;
+        background-color: yellow;
+    }
