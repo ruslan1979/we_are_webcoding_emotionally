@@ -1,0 +1,78 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background-image: linear-gradient(260deg, #2376ae 0%, #c16ecf 100%);
+}
+
+.item {
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  text-shadow: 4px 4px 0 rgba(255, 255, 255, 0.1);
+  padding: 10px;
+  background-color: khaki;
+  border: 1px solid black;
+  border-radius: 2px;
+}
+
+.container {
+  display: grid;
+  gap: 20px;
+  /* задать grid 10 колонок, четные колонки в два раза шире нечетных */
+  grid-template-columns: repeat(10, 1fr 2fr);
+
+  /* задать 10 строк высотой 50px */
+  grid-template-rows: repeat(10, 50px);
+}
+
+/* item1 начинается с 3 колонки и заканчивается на 5 */
+.item1 {
+  grid-column: 3 / span 2;
+}
+
+/* item2 начинается с 5 колонки и идет до конца строки */
+.item2 {
+  grid-column: 5 / -1;
+}
+
+
+/* item5 растягивается на 2 ячейки по вертикали и горизонтали */
+.item5 {
+  grid-column: 2 / span 2;
+  grid-row: 2 / span 2;
+}
+
+
+/* item8 занимает две строки в высоту */
+.item8 {
+  grid-row: 2 / span 2;
+}
+
+
+/* item15 занимает всю ширину грида */
+.item15 {
+  grid-row: 4;
+  grid-column: 1 / -1;
+}
+
+
+/* item18 занимает 4 ячейки и заканчивается на 9 линии */
+.item18 {
+  grid-row: 9;
+  grid-column: 1 / span 4;
+}
+
+/* item20 начинается с 4 линии и занимает 3 строки */
+.item20 {
+  grid-row: 4 / span 3;
+}
