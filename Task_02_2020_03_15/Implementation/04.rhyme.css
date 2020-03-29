@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+#container  {    
+  display:table;  
+  margin: 0 auto;
+  text-align: left;
+}
+
+#year {
+  padding-top: 1rem;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+#container h2 {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#container p {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#otstup1 {
+  margin-left: 30px;
+}
+
+#otstup2 {
+  margin-left: 120px;
+}
+
+#otstup3 {
+  margin-left: 155px;
+}
