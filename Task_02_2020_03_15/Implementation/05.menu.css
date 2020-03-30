@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;    
+}
+
+ul {
+  width:200px;
+  border: 1px solid black;
+  border-radius: 5%;
+  margin: 10px;
+  padding: 10px; 
+  line-height: 1.5;
+  box-shadow: 5px 4px 3px 2px black;
+  background-color: #aec108;
+  color: red;
+  list-style: none;
+}
+
+ul li {
+  
+}
