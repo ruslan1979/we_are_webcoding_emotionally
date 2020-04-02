@@ -67,7 +67,7 @@ footer {
   display: flex;  
 }
 
-.flex-nav ul li {  
+.flex-nav li {  
   flex: 3;
 }
 
@@ -83,12 +83,41 @@ footer {
   .flex-nav li {
     flex: 1 1 50%;
   }
-
 }
 
 @media (max-width: 500px) {
-  .flex-nav ul.open {
+  .wrapper {
     display: flex;
+    flex-direction: column;
   }
+
+  .wrapper > * {
+    order: 9999;
+  }
+
+  .flex-nav {  
+    order: 1;
+  }
+
+  .top {  
+    order: 2;
+  }
+
+  .details {
+    order: 3;
+  }
+
+  .signup {
+    order: 4;
+  }
+
+  .flex-nav ul {
+    display: none;
+  }
+
+  .toggle-nav {
+    display: block;
+  }
+
 
 }

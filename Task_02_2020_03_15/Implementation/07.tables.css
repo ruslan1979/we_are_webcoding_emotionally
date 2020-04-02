@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  height: 1em;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #000;
+ }
+
+ td, th {
+  padding: 3px;  
+  text-align: center;
+ }
+
+ th {
+  background: crimson;
+  color: white;
+ }
+
+ tr {
+  border: 1px solid #000;
+ }
+
+ tr:nth-child(even) {
+   background-color: yellow;
+ }
+
+ tbody tr:hover {
+  background: #f3bd48;
+  color: #fff;
+ }
+ 
+ .first_column {
+  text-align: left;
+ }
