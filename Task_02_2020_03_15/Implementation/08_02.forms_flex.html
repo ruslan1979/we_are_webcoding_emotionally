@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 8_02</title>
+    <link rel = "stylesheet" type="text/css" href="./08_02.forms_flex.css">
+</head>
+<body>   
+    <form>        
+        <h3>Регистрация</h3><hr/>   
+        <div class="row_1">
+            <p><label id="email" for="email">E-mail</label></p>
+            <input id="email" type="email" placeholder="proverka@pupk.in">
+        </div>
+        <div class="row_2">
+            <div class="column">        
+                <p><label for="password">Пароль</label></p>
+                <input type="password">
+            </div>        
+            <div class="column">        
+                <p><label for="passwordRepeat" class="right_inline">Еще раз</label></p>
+                <input type="password" id="passwordRepeat" class="right_inline" type="text">
+            </div>
+        </div>                
+        <div>        
+            <button type="submit">Отправить</button>        
+        </div>        
+    </form>
+   
+</body>
+</html>

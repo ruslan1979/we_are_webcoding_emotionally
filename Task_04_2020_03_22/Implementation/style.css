@@ -119,5 +119,11 @@ footer {
     display: block;
   }
 
+  .flex-nav ul.open {
+    display: flex;
+  }  
 
+  .flex-nav li {
+    flex-basis: 100%;
+  }
 }
