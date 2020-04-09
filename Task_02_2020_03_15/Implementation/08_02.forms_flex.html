@@ -10,22 +10,24 @@
     <form>        
         <h3>Регистрация</h3><hr/>   
         <div class="row_1">
-            <p><label id="email" for="email">E-mail</label></p>
-            <input id="email" type="email" placeholder="proverka@pupk.in">
+            <div class="column">
+                <p><label id="email" for="email">E-mail</label></p>
+                <input id="email" type="email" placeholder="proverka@pupk.in">
+            </div>
         </div>
         <div class="row_2">
             <div class="column">        
                 <p><label for="password">Пароль</label></p>
-                <input type="password">
+                <input type="password" id="password">
             </div>        
             <div class="column">        
                 <p><label for="passwordRepeat" class="right_inline">Еще раз</label></p>
-                <input type="password" id="passwordRepeat" class="right_inline" type="text">
+                <input type="password" id="passwordRepeat" class="right_inline">
             </div>
-        </div>                
-        <div>        
+        </div>
+        <div>
             <button type="submit">Отправить</button>        
-        </div>        
+        </div>
     </form>
    
 </body>

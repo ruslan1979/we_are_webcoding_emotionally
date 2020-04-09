@@ -9,7 +9,7 @@ form {
   flex-direction: column;  
   align-items: left;
   outline: 1px solid red;
-  width: 50%;
+  width: 500px;
   color: white;
   background-color: #54bbff;
 }
@@ -19,33 +19,60 @@ h3 {
 }
 
 .row_1 {
-  margin: 10px;
-}
-.row_1 > input {  
-  width: 95%;
+  margin: 10px 10px 10px 10px;
 }
 
 .row_2 {
   display: flex;
-  margin: 10px;
+  margin: 0px 10px 10px 10px;
   padding-right: 10px;
   flex-direction: row;
 }
 
 .column {
-  flex: 1 1 10px;
-  margin: 10;
+  flex: 1 1 10px; 
 }
 
-.column > input {
+#email {
   width: 95%;
+}
+
+#password {
+  width: 95%;
+}
+
+#passwordRepeat {
+  width: 94%;
 }
 
 button {
   padding: 7px 10px 5px 10px;
-  margin: 10px;
+  margin: 10px 10px 10px 10px;
   background-color: yellow;
   color: black;
   font-size: large;
   border: 1px solid black;
+}
+
+@media (max-width: 600px) {
+  form {
+    width: calc(600px / 2);
+  }
+  
+  .row_1 {
+    padding-right: 10px;
+  }
+
+  .row_2 {
+    flex-direction: column;
+  }  
+
+  .column {
+    margin-bottom: 10px; 
+  }
+
+  button {
+    margin: 0px 10px 10px 10px;
+  }
+  
 }
