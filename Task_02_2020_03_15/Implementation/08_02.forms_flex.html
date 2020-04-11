@@ -7,28 +7,27 @@
     <link rel = "stylesheet" type="text/css" href="./08_02.forms_flex.css">
 </head>
 <body>   
-    <form>        
-        <h3>Регистрация</h3><hr/>   
-        <div class="row_1">
-            <div class="column">
-                <p><label id="email" for="email">E-mail</label></p>
+    <div id="form_page">
+        <h3>Регистрация</h3><hr/>
+        <form method="POST">        
+            <div class="row">
+                <label id="email" for="email">E-mail</label>
                 <input id="email" type="email" placeholder="proverka@pupk.in">
             </div>
-        </div>
-        <div class="row_2">
-            <div class="column">        
-                <p><label for="password">Пароль</label></p>
-                <input type="password" id="password">
-            </div>        
-            <div class="column">        
-                <p><label for="passwordRepeat" class="right_inline">Еще раз</label></p>
-                <input type="password" id="passwordRepeat" class="right_inline">
+            <div class="row half_element">
+                <div class="column_half_element">   
+                    <label for="password">Пароль</label>
+                    <input type="password" id="password">
+                </div>        
+                <div class="column_half_element">        
+                    <label for="passwordRepeat" class="right_inline">Еще раз</label>
+                    <input type="password" id="passwordRepeat" class="right_inline">
+                </div>
             </div>
-        </div>
-        <div>
-            <button type="submit">Отправить</button>        
-        </div>
-    </form>
-   
+            <div>
+                <button type="submit">Отправить</button>        
+            </div>
+        </form>
+    </div>
 </body>
 </html>
